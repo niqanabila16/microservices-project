@@ -35,6 +35,7 @@ build/
 /docker/mysql/data/
 /docker/
 
+C:\Users\Niqa Nabila\Documents\Kuliah\Semester 6\PPLBO\Praktek\inventory-service\src\main\java\com\niqa\microservices\inventory\controller
 inventory-service/docker/mysql/data/mysql.sock
 order-service/mysql/mysql.sock
 inventory-service/mvnw.cmd
