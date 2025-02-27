@@ -1,4 +1,4 @@
-# version: '4'
+version: '4'
 services:
   mysql:
     image: mysql:8.3.0
@@ -9,6 +9,6 @@ services:
       - "3306:3306"
     volumes:
       - ./mysql:/var/lib/mysql
-      - ./docker/mysql/init.sql:/docker-entrypoint-initdb.d/init.sql:rw
+      - ./docker/mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
 
       # - ./docker/mysql/init:sql:/docker-entrypoint-initdb.d/init.sql
